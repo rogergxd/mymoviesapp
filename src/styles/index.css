@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/classic-movies-kids-1584724104.jpg");
+}
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+body:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+}
+.home {
+  width: 90%;
+  height: 50%;
+  margin: 10rem 0 0 3rem;
+  position: absolute;
+  background-color: white;
+}

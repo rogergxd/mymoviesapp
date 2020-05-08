@@ -1,0 +1,21 @@
+.nav {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(207, 129, 129);
+  position: relative;
+  top: 2rem;
+  border-radius: 1rem;
+}
+span {
+  color: white;
+  margin: auto;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+span:hover {
+  background-color: rgba(0, 0, 0, 0.336);
+}
