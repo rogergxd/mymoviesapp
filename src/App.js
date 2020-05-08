@@ -1,9 +1,9 @@
 import React from "react";
 import TopRated from "./components/TopRated";
 import Nav from "./components/Nav";
+import { API_URL as url } from "./components/constants";
 import axios from "axios";
 
-const url = "https://api.themoviedb.org/3/movie/";
 class App extends React.Component {
   state = { selected: "top_rated", movies: [] };
   componentDidMount() {
